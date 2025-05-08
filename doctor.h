@@ -16,7 +16,7 @@ class DoctorsLL
 {
 private:
     Doctor *head;
-    const std::string dataFile = "doctors.dat"; // File to store doctor data
+    const std::string dataFile = "data/doctors.dat"; // File to store doctor data
 
     void loadFromFile(); // Load data from file on startup
     void saveToFile();   // Save data to file when modified

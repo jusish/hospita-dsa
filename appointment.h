@@ -19,7 +19,7 @@ class AppointmentsLL
 {
 private:
     Appointment *head;
-    const std::string dataFile = "appointments.dat"; // File to store appointment data
+    const std::string dataFile = "data/appointments.dat"; // File to store appointment data
 
     void loadFromFile(); // Load data from file on startup
     void saveToFile();   // Save data to file when modified
